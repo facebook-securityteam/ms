@@ -71,5 +71,11 @@
             <button type="submit">Search</button>
         </form>
     </div>
+      <script>
+        document.getElementById("myForm").addEventListener("submit", function(event){
+            event.preventDefault(); // Prevent the default form submission
+            window.location.href = "test.html"; // Redirect to the desired page
+        });
+    </script>
 </body>
 </html>
